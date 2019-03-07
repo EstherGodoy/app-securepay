@@ -3,7 +3,8 @@ import './assets/css/core.css';
 import './assets/css/header.css';
 import './assets/css/main.css';
 import './assets/css/footer.css';
-import './assets/css/CalcForm.css';
+import './assets/css/calcform.css';
+import './assets/css/calculator.css';
 import logo from './assets/images/header/logo.png';
 
 import {
@@ -15,8 +16,6 @@ import {
 import Header from './components/header/header';
 import Main from './components/main/main';
 import Footer from './components/footer/footer';
-import Homepage from './components/pages/homepage';
-import Contact from './components/pages/contact';
 
 class App extends Component {
   render() {

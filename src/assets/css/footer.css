@@ -1,3 +1,28 @@
+.checkRow {
+    display:flex;
+    padding:90px 0 0 0;
+}
+.checkRow article {
+    width:33.33%; 
+    text-align:left;
+    color:#fff;
+}
+.checkRow img {
+    width:15px;
+    display:inline-block;
+    margin-right:5px;
+}
+@media(max-width:992px) {
+    .checkRow {
+        padding: 45px 0 0 0;
+        flex-direction:column;
+    }
+    .checkRow article {
+        width:100%;
+        text-align:center;
+        margin:0 0 10px 0;
+    }
+}
 footer {
     display: flex;
 	height: auto;
