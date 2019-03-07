@@ -1,0 +1,85 @@
+.calcForm p {
+    color: #fff;
+    font-size: 25px;
+    line-height: 1.325;
+    margin: 40px 0 0 0;
+}
+.calcForm ul {
+    color: #fff;
+    font-size: 25px;
+    line-height: 1.325;
+    color: #fedc32 !important;
+    margin-left: 40px;
+}
+.calcForm li {
+	font-size: 25px;
+    color: #fedc32;
+    line-height: 1.325;
+    background-image: none;
+    list-style: initial;
+    padding: 0;
+}
+.calcForm li span {
+	color:#fff;
+}
+@media(max-width:992px) {
+    .calcForm ul {
+        margin-left: 0;
+        padding: 0 0 0 24px;
+    }
+    .calcForm li {
+        font-size:22px;
+    }
+}
+.signUpForm .inputWrapper{
+	display:flex;
+	flex-flow: row wrap;
+}
+.signUpForm {
+	margin-top:55px;
+}
+.signUpForm input {
+	width:43.6%;
+	height:40px;
+	line-height: 40px;
+	border-radius:5px;
+	margin:0 0 15px 0;
+	padding:0 10px;
+	border:0px;
+	font-size:16px;
+}
+.signUpForm input:first-child {
+	margin-right:3%;
+}
+@media(max-width:992px) {
+ .signUpForm {
+    margin-top:45px;
+ }
+ .signUpForm input {
+    width:100%;
+    margin:0 0 15px 0 !important;
+ }   
+}
+.signUpForm button {
+	width:100%;
+}
+.signUpForm .submit {
+    margin: 0;
+    height: 40px;
+    border-radius: 5px;
+    border: 0px;
+    color: #3f4347;
+    background: #fedc32;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+.successMessage {
+    display:none;
+}
+#successMessage.show {
+    display:block;
+    color: #fff;
+    font-size: 22px;
+    margin: 15px 0 0 0;
+}
