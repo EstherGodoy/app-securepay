@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/securepay-react/precache-manifest.3ec9eea440fe0afac4582158973be081.js"
+  "/securepay-react/precache-manifest.a94e8245e882c58d9227d6418c7473a0.js"
 );
 
 workbox.clientsClaim();
